@@ -1,0 +1,15 @@
+body {
+  background: url("https://image.freepik.com/free-photo/brown-texture_1253-152.jpg");
+}
+
+.nav-item {
+  border: 1px red solid;
+  color: white;
+}
+
+h1,
+h2,
+a {
+  text-align: center;
+  color: white !important;
+}
