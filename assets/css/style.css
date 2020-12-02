@@ -1,9 +1,9 @@
 body {
+  /* background: url(../images/Mountains.png); */
   background: url("https://image.freepik.com/free-photo/brown-texture_1253-152.jpg");
 }
 
 .nav-item {
-  border: 1px red solid;
   color: white;
 }
 
@@ -12,4 +12,33 @@ h2,
 a {
   text-align: center;
   color: white !important;
+}
+
+.mountains {
+  height: 100px;
+  background-repeat: repeat-x;
+  background: url(../images/Mountains.png);
+  background-size: 400px;
+}
+
+.trees {
+  background-repeat: repeat-x;
+  background: url(../images/Trees.png);
+  background-size: 150px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
