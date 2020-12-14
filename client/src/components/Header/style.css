@@ -1,0 +1,6 @@
+.mountains {
+  height: 100px;
+  background-repeat: repeat-x;
+  background: url("../../assets/images/Mountains.png");
+  background-size: 400px;
+}
