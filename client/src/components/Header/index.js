@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Cabin from "../../assets/images/Cabin.png";
 
 // ToDo
 // Figure out how to display mountains
@@ -12,7 +13,7 @@ function Header() {
         <div className="mountains"></div>
         <img
           className="center"
-          src="./assets/images/Cabin.png"
+          src={Cabin}
           style={{ height: 300, width: 500 }}
           alt="Cabin"
         />
