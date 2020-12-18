@@ -14,7 +14,7 @@ function Header() {
         <img
           className="center"
           src={Cabin}
-          style={{ height: 300, width: 500 }}
+          style={{ width: "50%" }}
           alt="Cabin"
         />
         <div className="name-date">
