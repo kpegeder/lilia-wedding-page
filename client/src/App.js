@@ -15,28 +15,28 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/weddingparty">
+          <Route path="/weddingparty">
             <WeddingParty />
           </Route>
-          <Route exact path="/events">
+          <Route path="/events">
             <Events />
           </Route>
-          <Route exact path="/registry">
+          <Route path="/registry">
             <Registry />
           </Route>
-          <Route exact path="/rsvp">
+          <Route path="/rsvp">
             <RSVP />
           </Route>
-          <Route exact path="/thingstodo">
+          <Route path="/thingstodo">
             <ThingsToDo />
           </Route>
-          <Route exact path="/travel">
+          <Route path="/travel">
             <Travel />
           </Route>
-          <Route exact path="/photos">
+          <Route path="/photos">
             <Photos />
           </Route>
-          <Route exact path={["/", "/home"]}>
+          <Route path={["/", "/home"]}>
             <Home />
           </Route>
         </Switch>
