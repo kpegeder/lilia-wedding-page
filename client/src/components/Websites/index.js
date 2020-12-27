@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 const Websites = () => {
   return <div>Add Websites</div>;
