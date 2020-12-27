@@ -15,30 +15,14 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/weddingparty" component={WeddingParty}>
-            {/* <WeddingParty /> */}
-          </Route>
-          <Route path="/events" component={Events}>
-            {/* <Events /> */}
-          </Route>
-          <Route path="/registry" component={Registry}>
-            {/* <Registry /> */}
-          </Route>
-          <Route path="/rsvp" component={RSVP}>
-            {/* <RSVP /> */}
-          </Route>
-          <Route path="/thingstodo" component={ThingsToDo}>
-            {/* <ThingsToDo /> */}
-          </Route>
-          <Route path="/travel" component={Travel}>
-            {/* <Travel /> */}
-          </Route>
-          <Route path="/photos" component={Photos}>
-            {/* <Photos /> */}
-          </Route>
-          <Route path={["/", "/home"]}>
-            <Home />
-          </Route>
+          <Route path="/weddingparty" component={WeddingParty} />
+          <Route path="/events" component={Events} />
+          <Route path="/registry" component={Registry} />
+          <Route path="/rsvp" component={RSVP} />
+          <Route path="/thingstodo" component={ThingsToDo} />
+          <Route path="/travel" component={Travel} />
+          <Route path="/photos" component={Photos} />
+          <Route path={["/", "/home"]} component={Home} />
         </Switch>
       </div>
     </Router>
