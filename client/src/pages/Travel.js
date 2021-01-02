@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 
-const Travel = () => {
+function Travel() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const Travel = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Travel;

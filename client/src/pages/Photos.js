@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Pictures from "../components/Pictures";
 
-const Photos = () => {
+function Photos() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const Photos = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Photos;

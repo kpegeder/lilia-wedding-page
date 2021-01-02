@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Plans from "../components/Plans";
 
-const Events = () => {
+function Events() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const Events = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Events;

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Activity from "../components/Activity";
 
-const ThingsToDo = () => {
+function ThingsToDo() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const ThingsToDo = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default ThingsToDo;

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Friends from "../components/Friends";
 
-const WeddingParty = () => {
+function WeddingParty() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const WeddingParty = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default WeddingParty;

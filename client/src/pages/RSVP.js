@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Guest from "../components/Guest";
 
-const RSVP = () => {
+function RSVP() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const RSVP = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default RSVP;

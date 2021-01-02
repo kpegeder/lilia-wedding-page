@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 
-const Home = () => {
+function Home() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Home;

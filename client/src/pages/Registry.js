@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Websites from "../components/Websites";
 
-const Registry = () => {
+function Registry() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const Registry = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Registry;
