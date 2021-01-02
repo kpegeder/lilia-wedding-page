@@ -15,10 +15,10 @@ function App() {
     <Router>
       <div>
         <Switch>
-          {/* <Route path="/weddingparty" component={WeddingParty} /> */}
-          <Route path="/weddingparty">
+          <Route path="/weddingparty" component={WeddingParty} />
+          {/* <Route path="/weddingparty">
             <WeddingParty />
-          </Route>
+          </Route> */}
           <Route path="/events" component={Events} />
           <Route path="/registry" component={Registry} />
           <Route path="/rsvp" component={RSVP} />

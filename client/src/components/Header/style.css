@@ -3,6 +3,7 @@
   background-repeat: repeat-x;
   background: url("../../assets/images/Mountains.png");
   background-size: 400px;
+  margin-top: 5px;
 }
 
 .center {
