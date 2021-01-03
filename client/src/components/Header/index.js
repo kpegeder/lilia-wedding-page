@@ -11,12 +11,7 @@ function Header() {
     <div>
       <div>
         <div className="mountains"></div>
-        <img
-          className="center"
-          src={Cabin}
-          style={{ width: "50%" }}
-          alt="Cabin"
-        />
+        <img className="centerCabin" src={Cabin} alt="Cabin" />
         <div className="name-date">
           <div className="ourName">Lilia & Dave</div>
           <div className="ourDate">May 1st, 2021</div>
