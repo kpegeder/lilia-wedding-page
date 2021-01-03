@@ -48,3 +48,8 @@ body {
 .col {
   display: flex;
 }
+
+@font-face {
+  font-family: "NameCursive";
+  src: url("./assets/font/Tagonda-Ea4o9.ttf") format("truetype");
+}

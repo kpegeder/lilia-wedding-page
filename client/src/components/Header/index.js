@@ -18,8 +18,9 @@ function Header() {
           alt="Cabin"
         />
         <div className="name-date">
-          <h1>Lilia & Dave</h1>
-          <h2>May 1st, 2021 &bull; Lincoln, Montana</h2>
+          <div className="ourName">Lilia & Dave</div>
+          <div className="ourDate">May 1st, 2021</div>
+          <div className="ourLocation">Lincoln, Montana</div>
         </div>
       </div>
     </div>

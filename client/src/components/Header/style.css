@@ -16,3 +16,20 @@
   text-align: center;
   color: white !important;
 }
+
+.ourName {
+  /* font-family: "NameCursive"; */
+  /* font-weight: 500; */
+  font-size: 5rem;
+  margin-top: -30px;
+}
+
+.ourDate {
+  font-size: 3rem;
+  margin-top: -20px;
+}
+
+.ourLocation {
+  font-size: 2rem;
+  margin-top: -10px;
+}

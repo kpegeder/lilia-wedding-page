@@ -1,5 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Calista from "../../assets/images/weddingParty/calista.png";
+import Liv from "../../assets/images/weddingParty/liv.png";
 import "./style.css";
 
 const Friends = () => {
@@ -7,26 +9,34 @@ const Friends = () => {
     <Container>
       <Row>
         <Col xs={12} md={6}>
-          <div className="headParty">Groomsman</div>
-          <ul>
-            <li className="partyList">Jeffry Davidson - Best Man</li>
-            <li className="partyList">James Leslie</li>
-            <li className="partyList">Seth Fehringer</li>
-            <li className="partyList">Erik Gile</li>
-            <li className="partyList">Ethan Pempek</li>
-            <li className="partyList">Daniel Powell</li>
-          </ul>
+          <div className="headParty">Bridesmaid</div>
+          <div className="partyList">Calista Pegeder - Maid of Honor</div>
+          <Image
+            className="portrait"
+            src={Calista}
+            alt="Calista - Maid of Honor"
+            rounded
+          />
+          <div className="partyList">Kaari Selven</div>
+          <div className="partyList">Olivia Roberts</div>
+          <Image
+            className="portrait"
+            src={Liv}
+            alt="Olivia - Bridesmaid"
+            rounded
+          />
+          <div className="partyList">Amanda Leslie</div>
+          <div className="partyList">Nicole Bull</div>
+          <div className="partyList">Myra Newingham</div>
         </Col>
         <Col xs={12} md={6}>
-          <div className="headParty">Bridesmaid</div>
-          <ul>
-            <li className="partyList">Calista Pegeder - Maid of Honor</li>
-            <li className="partyList">Kaari Selven</li>
-            <li className="partyList">Olivia Roberts</li>
-            <li className="partyList">Amanda Leslie</li>
-            <li className="partyList">Nicole Bull</li>
-            <li className="partyList">Myra Newingham</li>
-          </ul>
+          <div className="headParty">Groomsman</div>
+          <div className="partyList">Jeffry Davidson - Best Man</div>
+          <div className="partyList">James Leslie</div>
+          <div className="partyList">Seth Fehringer</div>
+          <div className="partyList">Erik Gile</div>
+          <div className="partyList">Ethan Pempek</div>
+          <div className="partyList">Daniel Powell</div>
         </Col>
       </Row>
     </Container>
