@@ -6,7 +6,7 @@ const Friends = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col xs={12} md={6}>
           <div className="headParty">Groomsman</div>
           <ul>
             <li className="partyList">Jeffry Davidson - Best Man</li>
@@ -17,7 +17,7 @@ const Friends = () => {
             <li className="partyList">Daniel Powell</li>
           </ul>
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <div className="headParty">Bridesmaid</div>
           <ul>
             <li className="partyList">Calista Pegeder - Maid of Honor</li>

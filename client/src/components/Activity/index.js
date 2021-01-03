@@ -5,13 +5,13 @@ import "./style.css";
 const Activity = () => {
   return (
     <Container>
-      <Row className="justify-content-md-center">
-        <div>
-          <p className="activityDesc">
-            Yellowstone National Park- 4hr drive SE
-          </p>
-          <p className="activityDesc">Glacier Park- 2.5hr drive N</p>
-        </div>
+      <Row>
+        <Col className="activityDesc">
+          Yellowstone National Park- 4hr drive SE
+        </Col>
+      </Row>
+      <Row>
+        <Col className="activityDesc">Glacier Park- 2.5hr drive N</Col>
       </Row>
     </Container>
   );

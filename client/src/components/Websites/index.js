@@ -1,8 +1,15 @@
 import React from "react";
-// import "./style.css";
+import { Container, Row, Col } from "react-bootstrap";
+import "./style.css";
 
-const Websites = () => {
-  return <div>Add Websites</div>;
-};
+function Websites() {
+  return (
+    <Container>
+      <Row>
+        <Col className="registryWeb">Add Websites</Col>
+      </Row>
+    </Container>
+  );
+}
 
 export default Websites;

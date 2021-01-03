@@ -1,8 +1,15 @@
 import React from "react";
-// import "./style.css";
+import { Container, Row, Col } from "react-bootstrap";
+import "./style.css";
 
 const Guest = () => {
-  return <div>Return a search area</div>;
+  return (
+    <Container>
+      <Row>
+        <Col className="response">Return a search area</Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default Guest;
