@@ -7,31 +7,37 @@ const Plans = () => {
     <Container>
       <Row className="center">
         <Col xs={12} sm={2}>
-          <h1>April 30, 2021</h1>
+          <span className="primaryText">April 30, 2021</span>
         </Col>
         <Col>
-          <h3>Cocktail Hour at Hotel Lincoln @ 7:00pm</h3>
+          <span className="secondaryText">
+            Cocktail Hour at Hotel Lincoln @ 7:00pm
+          </span>
         </Col>
       </Row>
       <Row className="center">
         <Col xs={12} sm={2}>
-          <h1>May 1, 2021</h1>
+          <span className="primaryText">May 1, 2021</span>
         </Col>
         <Col>
-          <h3>
+          <span className="secondaryText">
             Ceremony @ 2:00pm?? - 2100 Stemple Pass Rd, Lincoln, MT, 59639
-          </h3>
+          </span>
         </Col>
         <Col>
-          <h3>Reception @ 3:00pm??- Hotel Lincoln, Lincoln, MT, 59639</h3>
+          <span className="secondaryText">
+            Reception @ 3:00pm??- Hotel Lincoln, Lincoln, MT, 59639
+          </span>
         </Col>
       </Row>
       <Row className="center">
         <Col xs={12} sm={2}>
-          <h1>May 2, 2021</h1>
+          <span className="primaryText">May 2, 2021</span>
         </Col>
         <Col>
-          <h3>Coffee bar @ Hotel Lincoln: 9:00-11:00</h3>
+          <span className="secondaryText">
+            Coffee bar @ Hotel Lincoln: 9:00-11:00
+          </span>
         </Col>
       </Row>
     </Container>

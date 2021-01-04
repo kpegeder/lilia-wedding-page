@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Calista from "../../assets/images/weddingParty/calista.png";
 import Liv from "../../assets/images/weddingParty/liv.png";
+import Kaari from "../../assets/images/weddingParty/kaari.png";
 import "./style.css";
 
 const Friends = () => {
@@ -18,6 +19,12 @@ const Friends = () => {
             rounded
           />
           <div className="partyList">Kaari Selven</div>
+          <Image
+            className="portrait"
+            src={Kaari}
+            alt="Kaari - Bridesmaid"
+            rounded
+          />
           <div className="partyList">Olivia Roberts</div>
           <Image
             className="portrait"

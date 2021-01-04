@@ -53,3 +53,12 @@ body {
   font-family: "NameCursive";
   src: url("./assets/font/Tagonda-Ea4o9.ttf") format("truetype");
 }
+
+.primaryText {
+  font-size: 2.2rem;
+}
+
+.secondaryText {
+  font-size: 1.4rem;
+  color: #124a12;
+}
