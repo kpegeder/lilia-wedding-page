@@ -17,6 +17,7 @@ const Friends = () => {
             src={Calista}
             alt="Calista - Maid of Honor"
             rounded
+            loading="lazy"
           />
           <div className="partyList">Kaari Selven</div>
           <Image
@@ -24,6 +25,7 @@ const Friends = () => {
             src={Kaari}
             alt="Kaari - Bridesmaid"
             rounded
+            loading="lazy"
           />
           <div className="partyList">Olivia Roberts</div>
           <Image
@@ -31,6 +33,7 @@ const Friends = () => {
             src={Liv}
             alt="Olivia - Bridesmaid"
             rounded
+            loading="lazy"
           />
           <div className="partyList">Amanda Leslie</div>
           <div className="partyList">Nicole Bull</div>
