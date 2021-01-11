@@ -11,6 +11,7 @@ import Erik from "../../assets/images/weddingParty/erik.png";
 import Ethan from "../../assets/images/weddingParty/ethan.png";
 import Daniel from "../../assets/images/weddingParty/daniel.png";
 import James from "../../assets/images/weddingParty/james.png";
+import Amanda from "../../assets/images/weddingParty/amanda.png";
 import "./style.css";
 
 const Friends = () => {
@@ -44,6 +45,13 @@ const Friends = () => {
             loading="lazy"
           />
           <div className="partyList">Amanda Leslie</div>
+          <Image
+            className="portrait"
+            src={Amanda}
+            alt="Amanda - Bridesmaid"
+            rounded
+            loading="lazy"
+          />
           <div className="partyList">Nicole Bull</div>
           <Image
             className="portrait"
