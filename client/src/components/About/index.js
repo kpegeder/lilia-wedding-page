@@ -6,17 +6,41 @@ const About = () => {
   return (
     <Container>
       <Row>
-        <Col className="aboutMe center">
-          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+        <Col className="celebrate center">WE’RE GETTING MARRIED!</Col>
+      </Row>
+      <br />
+      <Row>
+        <Col className="aboutMe center test1">
+          Welcome to our website- we’re so happy you’re here!
         </Col>
+      </Row>
+      <br />
+      <br />
+      <Row>
+        <Col className="aboutMe center test2">
+          This website was created as a helpful resource to get all the
+          important information out to our guests in preparation for our big
+          day. Have a look around and let’s get excited!
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col className="aboutMe center test3">
+          Invitations are on the way- Don’t forget to RSVP once you receive it
+          in the mail.
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col className="aboutMe center test4">
+          Finally- Thank you so much for supporting us and being a part of our
+          love story. We cannot wait to celebrate our marriage with all of our
+          closest friends and family!
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col className="aboutMe center test5">With love, Lilia and Dave</Col>
       </Row>
     </Container>
   );

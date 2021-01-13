@@ -1,4 +1,23 @@
-.flying {
+.flying,
+.lodging {
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.cities,
+.hotelDesc {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #124a12;
+  justify-content: center;
+}
+
+.lodgingDesc {
   font-size: 1.2rem;
+  color: #0b310b;
+}
+
+.hotel {
+  font-size: 1.6rem;
   justify-content: center;
 }
