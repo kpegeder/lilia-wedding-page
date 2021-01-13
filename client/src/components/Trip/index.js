@@ -6,7 +6,7 @@ const Trip = () => {
   return (
     <Container>
       <Row>
-        <Col className="flying">Cities to fly into</Col>
+        <Col className="flying primaryText">Cities to fly into</Col>
       </Row>
       <Row>
         <Col className="cities">Helena (56mi)</Col>
@@ -14,7 +14,7 @@ const Trip = () => {
         <Col className="cities">Missoula (77mi)</Col>
       </Row>
       <Row>
-        <Col className="lodging">Lodging - Hotel/Motel</Col>
+        <Col className="lodging primaryText">Lodging - Hotel/Motel</Col>
       </Row>
       <Row>
         <Col className="lodgingDesc">
@@ -28,9 +28,15 @@ const Trip = () => {
         <Col className="hotel">Hotel Lincoln - 14 rooms - (406)362-4822</Col>
       </Row>
       <Row>
-        <Col className="hotelDesc">2 Single Kings</Col>
-        <Col className="hotelDesc">12 Single Queens</Col>
-        <Col className="hotelDesc">Hookups available for RV/campers</Col>
+        <Col md={{ span: 3, offset: 1 }} className="hotelDesc">
+          2 Single Kings
+        </Col>
+        <Col md={{ span: 3 }} className="hotelDesc">
+          12 Single Queens
+        </Col>
+        <Col md={{ span: 4 }} className="hotelDesc">
+          Hookups available for RV/campers
+        </Col>
       </Row>
       <Row>
         <Col className="hotel">Three Bears Motel - 5 rooms - (406)362-4355</Col>
@@ -42,11 +48,15 @@ const Trip = () => {
         <Col className="hotel">Blue Sky Motel - 4 rooms - (406)362-4450</Col>
       </Row>
       <Row>
-        <Col className="hotelDesc">3 Double Queens</Col>
-        <Col className="hotelDesc">1 Single Queens</Col>
+        <Col md={{ span: 3, offset: 3 }} className="hotelDesc">
+          3 Double Queens
+        </Col>
+        <Col md={{ span: 3 }} className="hotelDesc">
+          1 Single Queens
+        </Col>
       </Row>
       <Row>
-        <Col className="lodging">Lodging - Airbnb</Col>
+        <Col className="lodging primaryText">Lodging - Airbnb</Col>
       </Row>
       <Row>
         <Col className="lodgingDesc">

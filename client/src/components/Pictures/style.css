@@ -1,0 +1,9 @@
+.picStyle {
+  max-height: 65vh !important;
+  width: 100% !important;
+  object-fit: scale-down;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}

@@ -15,7 +15,6 @@ const About = () => {
         </Col>
       </Row>
       <br />
-      <br />
       <Row>
         <Col className="aboutMe center test2">
           This website was created as a helpful resource to get all the
