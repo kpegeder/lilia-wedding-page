@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Container, Row, Col, Image } from "react-bootstrap";
+import { Carousel, Container } from "react-bootstrap";
 import Photo1 from "../../assets/images/engagement/Lilia_Dave_1.jpg";
 import Photo2 from "../../assets/images/engagement/Lilia_Dave_2.jpg";
 import Photo3 from "../../assets/images/engagement/Lilia_Dave_3.jpg";
@@ -56,17 +56,6 @@ const Pictures = () => {
             <img className="d-block picStyle" src={Photo5} alt="First slide" />
           </Carousel.Item>
         </Carousel>
-        <Row>
-          <Col>
-            <Image src={Photo1} fluid />
-          </Col>
-          <Col>
-            <Image src={Photo2} fluid />
-          </Col>
-          <Col>
-            <Image src={Photo3} fluid />
-          </Col>
-        </Row>
       </Container>
     </div>
   );
