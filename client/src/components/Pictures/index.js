@@ -35,143 +35,230 @@ const Pictures = () => {
       <Container>
         <Carousel>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement1}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement2}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement3}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement6}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement7}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement8}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement10}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement11}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement12}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement9}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement4}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+            <Image
               className="d-block picStyle"
               src={Engagement5}
               alt="Lilia and Dave"
+              loading="lazy"
             />
           </Carousel.Item>
         </Carousel>
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun4} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun4}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun5} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun5}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun6} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun6}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
         </Row>{" "}
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun7} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun7}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun8} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun8}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun9} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun9}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
         </Row>{" "}
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun10} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun10}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun1} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun1}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun12} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun12}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
         </Row>
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun13} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun13}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun14} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun14}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun15} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun15}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
         </Row>{" "}
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun11} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun11}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun2} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun2}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun3} className="photoStyle" alt="Lilia and Dave" />
+            <Image
+              src={Fun3}
+              className="photoStyle"
+              alt="Lilia and Dave"
+              loading="lazy"
+            />
           </Col>
         </Row>{" "}
       </Container>
