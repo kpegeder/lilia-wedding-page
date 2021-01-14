@@ -1,9 +1,18 @@
 .picStyle {
-  max-height: 65vh !important;
+  max-height: 90vh !important;
   width: 100% !important;
   object-fit: scale-down;
+  margin-bottom: 10px;
 }
 
 .spacing {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photoStyle {
+  height: 50vh;
+  object-fit: scale-down;
+  width: 100%;
 }
