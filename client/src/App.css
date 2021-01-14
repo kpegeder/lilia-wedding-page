@@ -49,7 +49,7 @@ body {
   display: flex;
 }
 
-@font-face {
+/* @font-face {
   font-family: "NameCursive1";
   src: url("./assets/font/Tagonda-Ea4o9.ttf") format("truetype");
 }
@@ -68,9 +68,9 @@ body {
 @font-face {
   font-family: "NameCursive4";
   src: url("./assets/font/Nicholia-p732Z.ttf") format("truetype");
-}
+} */
 
 @font-face {
-  font-family: "NameCursive5";
+  font-family: "NameCursive";
   src: url("./assets/font/MarvelousScriptDemo-7lGV.otf") format("opentype");
 }

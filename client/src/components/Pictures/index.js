@@ -38,140 +38,140 @@ const Pictures = () => {
             <img
               className="d-block picStyle"
               src={Engagement1}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement2}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement3}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement6}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement7}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement8}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement10}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement11}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement12}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement9}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement4}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block picStyle"
               src={Engagement5}
-              alt="First slide"
+              alt="Lilia and Dave"
             />
           </Carousel.Item>
         </Carousel>
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun4} className="photoStyle" />
+            <Image src={Fun4} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun5} className="photoStyle" />
+            <Image src={Fun5} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun6} className="photoStyle" />
-          </Col>
-        </Row>{" "}
-        <Row>
-          <Col xs={12} md={4} className="spacing">
-            <Image src={Fun7} className="photoStyle" />
-          </Col>
-          <Col xs={12} md={4} className="spacing">
-            <Image src={Fun8} className="photoStyle" />
-          </Col>
-          <Col xs={12} md={4} className="spacing">
-            <Image src={Fun9} className="photoStyle" />
+            <Image src={Fun6} className="photoStyle" alt="Lilia and Dave" />
           </Col>
         </Row>{" "}
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun10} className="photoStyle" />
+            <Image src={Fun7} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun1} className="photoStyle" />
+            <Image src={Fun8} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun12} className="photoStyle" />
+            <Image src={Fun9} className="photoStyle" alt="Lilia and Dave" />
+          </Col>
+        </Row>{" "}
+        <Row>
+          <Col xs={12} md={4} className="spacing">
+            <Image src={Fun10} className="photoStyle" alt="Lilia and Dave" />
+          </Col>
+          <Col xs={12} md={4} className="spacing">
+            <Image src={Fun1} className="photoStyle" alt="Lilia and Dave" />
+          </Col>
+          <Col xs={12} md={4} className="spacing">
+            <Image src={Fun12} className="photoStyle" alt="Lilia and Dave" />
           </Col>
         </Row>
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun13} className="photoStyle" />
+            <Image src={Fun13} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun14} className="photoStyle" />
+            <Image src={Fun14} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun15} className="photoStyle" />
+            <Image src={Fun15} className="photoStyle" alt="Lilia and Dave" />
           </Col>
         </Row>{" "}
         <Row>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun11} className="photoStyle" />
+            <Image src={Fun11} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun2} className="photoStyle" />
+            <Image src={Fun2} className="photoStyle" alt="Lilia and Dave" />
           </Col>
           <Col xs={12} md={4} className="spacing">
-            <Image src={Fun3} className="photoStyle" />
+            <Image src={Fun3} className="photoStyle" alt="Lilia and Dave" />
           </Col>
         </Row>{" "}
       </Container>

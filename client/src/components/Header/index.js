@@ -13,11 +13,7 @@ function Header() {
         <div className="mountains"></div>
         <img className="centerCabin" src={Cabin} alt="Cabin" />
         <div className="name-date">
-          <div className="ourName1">Lilia & Dave</div>
-          <div className="ourName2">Lilia & Dave</div>
-          <div className="ourName3">Lilia & Dave</div>
-          <div className="ourName4">Lilia & Dave</div>
-          <div className="ourName5">Lilia & Dave</div>
+          <div className="ourName">Lilia & Dave</div>
           <div className="ourDate">May 1st, 2021</div>
           <div className="ourLocation">Lincoln, Montana</div>
         </div>

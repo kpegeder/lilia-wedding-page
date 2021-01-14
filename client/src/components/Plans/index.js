@@ -11,7 +11,7 @@ const Plans = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={3}>
+        <Col xs={5} sm={3}>
           <span className="secondaryText">6:30-8:00pm</span>
         </Col>
         <Col>
@@ -24,7 +24,7 @@ const Plans = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={3}>
+        <Col xs={5} sm={3}>
           <span className="secondaryText">2:30pm</span>
         </Col>
         <Col>
@@ -32,7 +32,7 @@ const Plans = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={3}>
+        <Col xs={5} sm={3}>
           <span className="secondaryText">3:30-5:00pm</span>
         </Col>
         <Col>
@@ -40,7 +40,7 @@ const Plans = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={3}>
+        <Col xs={5} sm={3}>
           <span className="secondaryText">5:00pm</span>
         </Col>
         <Col>
@@ -53,7 +53,7 @@ const Plans = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={3}>
+        <Col xs={5} sm={3}>
           <span className="secondaryText">9:00-11:00am</span>
         </Col>
         <Col>
