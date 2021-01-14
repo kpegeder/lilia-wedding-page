@@ -17,8 +17,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -20px;
-  width: 50%;
+  margin-top: -35px;
+  width: 45%;
 }
 
 .name-date {
@@ -29,7 +29,7 @@
 .ourName1 {
   font-family: "NameCursive1";
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 5.7rem;
   margin-top: -30px;
   margin-bottom: -30px;
 }
@@ -37,7 +37,7 @@
 .ourName2 {
   font-family: "NameCursive2";
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin-top: -30px;
   margin-bottom: -30px;
 }
@@ -45,7 +45,7 @@
 .ourName3 {
   font-family: "NameCursive3";
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 9rem;
   margin-top: -30px;
   margin-bottom: -30px;
 }
@@ -53,7 +53,7 @@
 .ourName4 {
   font-family: "NameCursive4";
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 7rem;
   margin-top: -30px;
   margin-bottom: -30px;
 }
@@ -61,7 +61,7 @@
 .ourName5 {
   font-family: "NameCursive5";
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 5.5rem;
   margin-top: -30px;
   margin-bottom: -30px;
 }
