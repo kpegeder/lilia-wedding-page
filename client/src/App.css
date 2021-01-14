@@ -54,11 +54,11 @@ body {
   src: url("./assets/font/Tagonda-Ea4o9.ttf") format("truetype");
 }
 
-.primaryText {
+/* .primaryText {
   font-size: 2.2rem;
 }
 
 .secondaryText {
   font-size: 1.6rem;
   color: #124a12;
-}
+} */

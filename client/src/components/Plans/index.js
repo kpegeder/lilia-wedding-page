@@ -5,39 +5,59 @@ import "./style.css";
 const Plans = () => {
   return (
     <Container>
-      <Row className="center">
-        <Col xs={12} sm={2}>
-          <span className="primaryText">April 30, 2021</span>
-        </Col>
-        <Col>
-          <span className="secondaryText">
-            Cocktail Hour at Hotel Lincoln @ 7:00pm
-          </span>
+      <Row>
+        <Col className="center">
+          <span className="primaryText">Friday, April 30th</span>
         </Col>
       </Row>
-      <Row className="center">
-        <Col xs={12} sm={2}>
-          <span className="primaryText">May 1, 2021</span>
+      <Row>
+        <Col xs={12} sm={3}>
+          <span className="secondaryText">6:30-8:00pm</span>
         </Col>
         <Col>
-          <span className="secondaryText">
-            Ceremony @ 2:00pm?? - 2100 Stemple Pass Rd, Lincoln, MT, 59639
-          </span>
-        </Col>
-        <Col>
-          <span className="secondaryText">
-            Reception @ 3:00pm??- Hotel Lincoln, Lincoln, MT, 59639
-          </span>
+          <span className="thirdText">Cocktail Hour at Hotel Lincoln</span>
         </Col>
       </Row>
-      <Row className="center">
-        <Col xs={12} sm={2}>
-          <span className="primaryText">May 2, 2021</span>
+      <Row>
+        <Col className="center">
+          <span className="primaryText">Saturday, May 1st</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={3}>
+          <span className="secondaryText">2:30pm</span>
         </Col>
         <Col>
-          <span className="secondaryText">
-            Coffee bar @ Hotel Lincoln: 9:00-11:00
-          </span>
+          <span className="thirdText">Ceremony at 2100 Stemple Pass Rd</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={3}>
+          <span className="secondaryText">3:30-5:00pm</span>
+        </Col>
+        <Col>
+          <span className="thirdText">Cocktail Hour at Hotel Lincoln</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={3}>
+          <span className="secondaryText">5:00pm</span>
+        </Col>
+        <Col>
+          <span className="thirdText">Dinner</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="center">
+          <span className="primaryText">Sunday, May 2nd</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={3}>
+          <span className="secondaryText">9:00-11:00am</span>
+        </Col>
+        <Col>
+          <span className="thirdText">Coffee Bar at Hotel Lincoln</span>
         </Col>
       </Row>
     </Container>
