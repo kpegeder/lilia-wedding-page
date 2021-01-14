@@ -50,15 +50,27 @@ body {
 }
 
 @font-face {
-  font-family: "NameCursive";
+  font-family: "NameCursive1";
   src: url("./assets/font/Tagonda-Ea4o9.ttf") format("truetype");
 }
 
-/* .primaryText {
-  font-size: 2.2rem;
+@font-face {
+  font-family: "NameCursive2";
+  src: url("./assets/font/SweetPattersonDemoRegular-xVXm.ttf")
+    format("truetype");
 }
 
-.secondaryText {
-  font-size: 1.6rem;
-  color: #124a12;
-} */
+@font-face {
+  font-family: "NameCursive3";
+  src: url("./assets/font/Qristalla-BWqX3.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NameCursive4";
+  src: url("./assets/font/Nicholia-p732Z.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NameCursive5";
+  src: url("./assets/font/MarvelousScriptDemo-7lGV.otf") format("opentype");
+}

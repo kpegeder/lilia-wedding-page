@@ -26,8 +26,40 @@
   color: white !important;
 }
 
-.ourName {
-  font-family: "NameCursive";
+.ourName1 {
+  font-family: "NameCursive1";
+  font-weight: 500;
+  font-size: 5rem;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.ourName2 {
+  font-family: "NameCursive2";
+  font-weight: 500;
+  font-size: 5rem;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.ourName3 {
+  font-family: "NameCursive3";
+  font-weight: 500;
+  font-size: 5rem;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.ourName4 {
+  font-family: "NameCursive4";
+  font-weight: 500;
+  font-size: 5rem;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.ourName5 {
+  font-family: "NameCursive5";
   font-weight: 500;
   font-size: 5rem;
   margin-top: -30px;
