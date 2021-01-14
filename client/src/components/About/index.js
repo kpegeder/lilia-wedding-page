@@ -6,7 +6,7 @@ import "./style.css";
 const About = () => {
   return (
     <div>
-      <Image src={Photo} fluid />
+      <Image src={Photo} fluid alt="Lilia and Dave" />
       <Container>
         <Row>
           <Col className="celebrate center">WE’RE GETTING MARRIED!</Col>
