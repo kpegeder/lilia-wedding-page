@@ -10,7 +10,7 @@ function Header() {
         <img className="centerCabin" src={Cabin} alt="Cabin" loading="lazy" />
         <div className="name-date">
           <div className="ourName">Lilia & Dave</div>
-          <div className="ourDate">May 1st, 2021</div>
+          <div className="ourDate">May 1, 2021</div>
           <div className="ourLocation">Lincoln, Montana</div>
         </div>
       </div>

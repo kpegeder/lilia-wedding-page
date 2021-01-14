@@ -7,16 +7,17 @@
 .hotelDesc {
   font-size: 1.6rem;
   text-align: center;
-  color: #124a12;
+  color: black;
   justify-content: center;
 }
 
 .lodgingDesc {
   font-size: 1.4rem;
-  color: #124a12;
+  color: black;
 }
 
 .hotel {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   justify-content: center;
+  color: #124a12;
 }

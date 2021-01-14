@@ -2,3 +2,11 @@
   font-size: 1.2rem;
   justify-content: center;
 }
+
+.logo {
+  width: 50% !important;
+}
+
+.centerLogo {
+  text-align: center;
+}

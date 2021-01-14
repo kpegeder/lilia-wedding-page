@@ -37,9 +37,11 @@
 .ourDate {
   font-size: 3rem;
   margin-top: -20px;
+  color: black;
 }
 
 .ourLocation {
   font-size: 2rem;
   margin-top: -10px;
+  color: black;
 }

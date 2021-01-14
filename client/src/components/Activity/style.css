@@ -2,17 +2,17 @@
   font-size: 1.6rem;
   justify-content: center;
   text-align: center;
-  color: #124a12;
 }
 
 .parks {
   font-size: 2.2rem;
   justify-content: center;
+  color: #124a12;
 }
 
 .websites {
   font-size: 1.6rem;
   justify-content: center;
   text-align: center;
-  color: #124a12;
+  color: black;
 }

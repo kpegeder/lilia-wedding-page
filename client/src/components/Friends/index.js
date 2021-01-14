@@ -19,8 +19,7 @@ const Friends = () => {
     <Container>
       <Row>
         <Col xs={12} md={6}>
-          <div className="headParty">Bridesmaid</div>
-          <div className="partyList">Calista Pegeder - Maid of Honor</div>
+          <div className="headParty">Bridesmaids</div>
           <Image
             className="portrait"
             src={Calista}
@@ -28,7 +27,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Kaari Selven</div>
+          <div className="partyList">Calista Pegeder - Maid of Honor</div>
           <Image
             className="portrait"
             src={Kaari}
@@ -36,7 +35,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Olivia Roberts</div>
+          <div className="partyList">Kaari Selven</div>
           <Image
             className="portrait"
             src={Liv}
@@ -44,7 +43,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Amanda Leslie</div>
+          <div className="partyList">Olivia Roberts</div>
           <Image
             className="portrait"
             src={Amanda}
@@ -52,7 +51,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Nicole Bull</div>
+          <div className="partyList">Amanda Leslie</div>
           <Image
             className="portrait"
             src={Nicole}
@@ -60,7 +59,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Myra Newingham</div>
+          <div className="partyList">Nicole Bull</div>
           <Image
             className="portrait"
             src={Myra}
@@ -68,10 +67,10 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
+          <div className="partyList">Myra Newingham</div>
         </Col>
         <Col xs={12} md={6}>
-          <div className="headParty">Groomsman</div>
-          <div className="partyList">Jeffry Davidson - Best Man</div>
+          <div className="headParty">Groomsmen</div>
           <Image
             className="portrait"
             src={Jeffry}
@@ -79,7 +78,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">James Leslie</div>
+          <div className="partyList">Jeffry Davidson - Best Man</div>
           <Image
             className="portrait"
             src={James}
@@ -87,7 +86,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Seth Fehringer</div>
+          <div className="partyList">James Leslie</div>
           <Image
             className="portrait"
             src={Seth}
@@ -95,7 +94,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Erik Gile</div>
+          <div className="partyList">Seth Fehringer</div>
           <Image
             className="portrait"
             src={Erik}
@@ -103,7 +102,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Ethan Pempek</div>
+          <div className="partyList">Erik Gile</div>
           <Image
             className="portrait"
             src={Ethan}
@@ -111,7 +110,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
-          <div className="partyList">Daniel Powell</div>
+          <div className="partyList">Ethan Pempek</div>
           <Image
             className="portrait"
             src={Daniel}
@@ -119,6 +118,7 @@ const Friends = () => {
             rounded
             loading="lazy"
           />
+          <div className="partyList">Daniel Powell</div>
         </Col>
       </Row>
     </Container>
