@@ -6,7 +6,9 @@ const Guest = () => {
   return (
     <Container>
       <Row>
-        <Col className="response">Return a search area</Col>
+        <Col className="response">
+          Check back- RSVP once formal invitation received
+        </Col>
       </Row>
     </Container>
   );
