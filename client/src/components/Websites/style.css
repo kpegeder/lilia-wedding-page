@@ -7,7 +7,7 @@
 
 .logo {
   width: 50% !important;
-  border: 2px solid #124a12;
+  border: 2px solid black;
   border-radius: 5px;
   padding: 10px;
   max-width: 150px !important;
@@ -19,20 +19,4 @@
 
 .amazonLogo {
   margin-top: 8px;
-}
-
-.logo1 {
-  width: 50% !important;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 150px !important;
-}
-
-.logo2 {
-  width: 50% !important;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 150px !important;
 }
