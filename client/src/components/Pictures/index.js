@@ -21,7 +21,7 @@ import Fun8 from "../../assets/images/fun/Lilia_Dave8.JPG";
 import Fun9 from "../../assets/images/fun/Lilia_Dave9.JPG";
 import Fun10 from "../../assets/images/fun/Lilia_Dave10.JPG";
 import Fun11 from "../../assets/images/fun/Lilia_Dave11.JPG";
-import Fun12 from "../../assets/images/fun/Lilia_Dave12.JPG";
+import Fun12 from "../../assets/images/fun/Lilia_Dave12.jpeg";
 import Fun13 from "../../assets/images/fun/Lilia_Dave13.JPG";
 import Fun14 from "../../assets/images/fun/Lilia_Dave14.JPG";
 import Fun15 from "../../assets/images/fun/Lilia_Dave15.JPG";
