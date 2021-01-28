@@ -25,14 +25,14 @@ const Trip = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="hotel">Hotel Lincoln - 14 rooms - (406)362-4822</Col>
+        <Col className="hotel">Lincoln Log Hotel - 6 rooms - (406)362-4822</Col>
       </Row>
       <Row>
         <Col md={{ span: 3, offset: 1 }} className="hotelDesc">
-          2 Single Kings
+          5 Single Queens
         </Col>
         <Col md={{ span: 3 }} className="hotelDesc">
-          12 Single Queens
+          1 Double Twin
         </Col>
         <Col md={{ span: 4 }} className="hotelDesc">
           Hookups available for RV/campers
