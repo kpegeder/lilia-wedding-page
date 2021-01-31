@@ -30,6 +30,14 @@ function Websites() {
           </a>
         </Col>
       </Row>
+      <Row>
+        <p className="contribute">
+          If you would rather contribute to our honeymoon/house fund, our
+          mailing address is:{" "}
+          <span style={{ color: "white" }}>PO BOX 365, Wrangell, AK 99929</span>{" "}
+          But PLEASE do not feel obligated, your presence is enough!
+        </p>
+      </Row>
     </Container>
   );
 }
