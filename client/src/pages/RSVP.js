@@ -77,7 +77,7 @@ function RSVP() {
       return false;
     }
     */
-    console.log(form, data);
+
     if (data.email && !validEmail(data.email)) {
       // if email is not valid show error
       var invalidEmail = form.querySelector(".email-invalid");

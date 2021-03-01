@@ -1,7 +1,22 @@
 .response {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .submit-btn {
   margin: 1rem 0rem;
+}
+
+.inviteInfo {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.thanks {
+  font-size: 3rem;
+  color: white;
+}
+
+.thankyou_message {
+  text-align: center;
 }

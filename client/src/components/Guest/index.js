@@ -6,6 +6,12 @@ const Guest = (props) => {
   return (
     <Container>
       <Row>
+        <Col md={{ span: 8, offset: 2 }} className="inviteInfo">
+          Once you've received your invitation in the mail, please RSVP below by
+          inputting your name and the number in your party.
+        </Col>
+      </Row>
+      <Row>
         <Col style={{ justifyContent: "center" }}>
           <Form
             action="https://script.google.com/macros/s/AKfycbxGwXiEM7OTBEwgww84EkOBgkifAMkNMzBHC9uzVQ/exec"
@@ -45,6 +51,9 @@ const Guest = (props) => {
             <Button variant="primary" type="submit" className="submit-btn">
               Submit
             </Button>
+            <div className="thankyou_message" style={{ display: "none" }}>
+              <span className="thanks">Thank You!</span>
+            </div>
           </Form>
         </Col>
       </Row>
