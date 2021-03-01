@@ -17,7 +17,7 @@ const Trip = () => {
         <Col className="lodging primaryText">Lodging - Hotel/Motel</Col>
       </Row>
       <Row>
-        <Col className="lodgingDesc">
+        <Col md={{ span: 8, offset: 2 }} className="lodgingDesc">
           We have blocked the following rooms for Friday, April 30th and
           Saturday, May 1st. All rooms are in town within walking distance from
           reception (at Hotel Lincoln). Please call for availability,
@@ -59,7 +59,7 @@ const Trip = () => {
         <Col className="lodging primaryText">Lodging - Airbnb</Col>
       </Row>
       <Row>
-        <Col className="lodgingDesc">
+        <Col md={{ span: 8, offset: 2 }} className="lodgingDesc">
           There are some Airbnbs and other vacation rentals available in the
           surrounding area. This is a very small town and there is another
           wedding on the same weekend so book early!

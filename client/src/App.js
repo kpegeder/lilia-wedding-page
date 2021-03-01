@@ -8,6 +8,7 @@ import Registry from "./pages/Registry";
 import RSVP from "./pages/RSVP";
 import Travel from "./pages/Travel";
 import ThingsToDo from "./pages/ThingsToDo";
+import Responses from "./pages/Responses";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/thingstodo" component={ThingsToDo} />
           <Route path="/travel" component={Travel} />
           <Route path="/photos" component={Photos} />
+          <Route path="/responses" component={Responses} />
           <Route path={["/", "/home"]} component={Home} />
         </Switch>
       </div>

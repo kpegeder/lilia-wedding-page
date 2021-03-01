@@ -1,0 +1,17 @@
+.guestName {
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.guestResponse {
+  font-size: 1.6rem;
+  /* justify-content: center; */
+}
+.form-control,
+.btn {
+  font-size: 1.4rem !important;
+}
+
+.form-check-input {
+  margin-top: 0.3rem;
+}
