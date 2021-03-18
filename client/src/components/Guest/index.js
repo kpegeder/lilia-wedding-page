@@ -12,6 +12,11 @@ const Guest = (props) => {
         </Col>
       </Row>
       <Row>
+        <Col md={{ span: 8, offset: 2 }} className="attireInfo">
+          Attire is business casual
+        </Col>
+      </Row>
+      <Row>
         <Col style={{ justifyContent: "center" }}>
           <Form
             action="https://script.google.com/macros/s/AKfycbxGwXiEM7OTBEwgww84EkOBgkifAMkNMzBHC9uzVQ/exec"
