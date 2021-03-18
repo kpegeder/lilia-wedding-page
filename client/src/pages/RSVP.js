@@ -47,20 +47,15 @@ function RSVP() {
     var formData = {};
     fields.forEach(function (name) {
       var element = elements[name];
-      // singular form elements just have one value
-      formData[name] = element.value;
-      // when our element has multiple items, get their values
-      if (element.length) {
-        var data = [];
-        for (var i = 0; i < element.length; i++) {
-          var item = element.item(i);
-          if (item.checked || item.selected) {
-            data.push(item.value);
-          }
-        }
-        formData[name] = data.join(", ");
+
+      if (element.type === "checkbox" && element.checked) {
+        console.log(element.value);
+        formData[name] = element.id;
+      } else if (element.type !== "checkbox") {
+        formData[name] = element.value;
       }
     });
+    console.log(formData);
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
     formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name

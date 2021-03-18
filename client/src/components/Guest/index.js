@@ -48,6 +48,19 @@ const Guest = (props) => {
                 />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <Form.Label>Attending</Form.Label>
+              </Col>
+              <Form.Check
+                inline
+                label="Yes"
+                type="checkbox"
+                name="Yes"
+                id="Yes"
+              />
+              <Form.Check inline label="No" type="checkbox" name="No" id="No" />
+            </Row>
             <Button variant="primary" type="submit" className="submit-btn">
               Submit
             </Button>
