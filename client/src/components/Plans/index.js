@@ -7,20 +7,6 @@ const Plans = () => {
     <Container>
       <Row>
         <Col className="center">
-          <span className="inviteInfo">Dressy Casual Attire</span>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="center">
-          <span className="inviteInfo">
-            Ceremony will take place in a meadow followed by the reception
-            outside at the Hotel Lincoln
-          </span>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col className="center">
           <span className="primaryText">Friday, April 30th</span>
         </Col>
       </Row>
@@ -40,6 +26,19 @@ const Plans = () => {
       <Row>
         <Col className="center">
           <span className="primaryText">Saturday, May 1st</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="center">
+          <span className="fourthText">Dressy Casual Attire</span>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="center">
+          <span className="fourthText">
+            Ceremony will take place in a meadow followed by the reception
+            outside at the Hotel Lincoln
+          </span>
         </Col>
       </Row>
       <Row>

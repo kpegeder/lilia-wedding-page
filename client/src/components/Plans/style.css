@@ -16,3 +16,8 @@
 .removePadding {
   padding-right: 0 !important;
 }
+
+.fourthText {
+  font-size: 1.6rem;
+  color: black;
+}
